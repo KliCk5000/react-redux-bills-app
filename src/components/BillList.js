@@ -28,7 +28,6 @@ class BillList extends Component {
 }
 
 const mapStateToProps = (state) => {
-  console.log(state);
   return { bills: state.bills };
 };
 
